@@ -6,28 +6,28 @@ const useBackgroundImage = (time: Date): string => {
   const [photoLink, setPhotoLink] = useState<string>('');
 
   useEffect(() => {
-    const hours = time.getHours();
+    const dayOfWeek = time.getDay(); // Get the current day of the week (0-6, Sunday-Saturday)
 
+    // Find the background image data corresponding to the current day
     const backgroundData: BackgroundImageData | undefined =
-      BACKGROUND_IMAGES.find(({ range }) => {
-        const [start, end] = range;
+      BACKGROUND_IMAGES.find(({ day }) => day === dayOfWeek);
 
-        if (start > end) {
-          return hours >= start || hours < end;
-        }
+    // If background data exists, set the background image and the link
+    if (backgroundData) {
+      const background = backgroundData.image;
 
-        return hours >= start && hours < end;
-      });
+      // Dynamically set the background image for the document root (HTML element)
+      document.documentElement.style.setProperty(
+        '--background-image',
+        `url(/images/${background})`
+      );
 
-    const background = backgroundData?.image || 'morning.jpg';
-    document.documentElement.style.setProperty(
-      '--background-image',
-      `url(/images/${background})`
-    );
-    setPhotoLink(backgroundData?.link || 'https://unsplash.com');
+      // Set the link to the background image's source
+      setPhotoLink(backgroundData.link);
+    }
   }, [time]);
 
-  return photoLink;
+  return photoLink; // Return the link to the background image
 };
 
 export default useBackgroundImage;

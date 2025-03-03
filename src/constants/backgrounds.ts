@@ -1,24 +1,40 @@
 import { BackgroundImageData } from '@/types/types';
 
+// Array of background images, each with a corresponding day, image file, and link to the source
 export const BACKGROUND_IMAGES: BackgroundImageData[] = [
   {
-    range: [4, 10],
-    image: 'morning.jpg',
-    link: 'https://unsplash.com/photos/green-mountain-across-body-of-water-Bkci_8qcdvQ',
-  },
-  {
-    range: [10, 16],
-    image: 'afternoon.jpg',
+    day: 0,
+    image: 'sunday.jpg',
     link: 'https://unsplash.com/photos/an-aerial-view-of-a-body-of-water-WlxHpuwbLns',
   },
   {
-    range: [16, 22],
-    image: 'evening.jpg',
+    day: 1,
+    image: 'monday.jpg',
+    link: 'https://unsplash.com/photos/green-mountain-across-body-of-water-Bkci_8qcdvQ',
+  },
+  {
+    day: 2,
+    image: 'tuesday.jpg',
     link: 'https://unsplash.com/photos/aerial-view-of-city-near-body-of-water-during-daytime-C4obO33N29M',
   },
   {
-    range: [22, 4],
-    image: 'night.jpg',
-    link: 'https://unsplash.com/photos/forest-mini-bridge-AVzByhROPbs',
+    day: 3,
+    image: 'wednesday.jpg',
+    link: 'https://unsplash.com/photos/green-northern-lights-at-night-Ejpx_sdKEKo',
+  },
+  {
+    day: 4,
+    image: 'thursday.jpg',
+    link: 'https://unsplash.com/photos/grand-canyon-arizona-YG_Fxyqz9xg',
+  },
+  {
+    day: 5,
+    image: 'friday.jpg',
+    link: 'https://unsplash.com/photos/golden-hour-photography-of-docking-pier-on-body-of-water-uwbajDCODj4',
+  },
+  {
+    day: 6,
+    image: 'saturday.jpg',
+    link: 'https://unsplash.com/photos/landscape-photography-of-trees-near-mountain-during-orange-sunset-RAJONCCrXh8',
   },
 ];

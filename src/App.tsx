@@ -7,15 +7,16 @@ const App: React.FC = () => {
   const [time, setTime] = useState(new Date());
 
   useEffect(() => {
+    // Update time every second
     const interval = setInterval(() => {
       setTime(new Date());
     }, 1000);
 
-    return () => clearInterval(interval);
+    return () => clearInterval(interval); // Cleanup interval on unmount
   }, []);
 
-  const photoLink = useBackgroundImage(time);
-  const dayProgress = ((time.getHours() * 60 + time.getMinutes()) / 1440) * 100;
+  const photoLink = useBackgroundImage(time); // Get background image link
+  const dayProgress = ((time.getHours() * 60 + time.getMinutes()) / 1440) * 100; // Calculate percentage of day passed;
 
   return (
     <div className="app">
