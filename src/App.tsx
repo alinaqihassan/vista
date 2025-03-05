@@ -44,13 +44,19 @@ const App: React.FC = () => {
 
       <div className="footer">
         <p>
-          <a href={photoLink} target="_blank" rel="noopener noreferrer">
-            /photo
+          <a
+            title="background"
+            href={photoLink}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            /background
           </a>
         </p>
         <p>
           <a
-            href="https://github.com/shashiirk/rhythm"
+            title="github"
+            href="https://github.com/shashiirk/vista"
             target="_blank"
             rel="noopener noreferrer"
           >
