@@ -51,10 +51,10 @@ body {
   background: linear-gradient(
     to bottom,
     rgba(0, 0, 0, 0.4),
-    rgba(0, 0, 0, 0.2)
+    rgba(0, 0, 0, 0.4)
   );
-  backdrop-filter: blur(10px); /* Adds Blur Effect */
-  -webkit-backdrop-filter: blur(10px); /* For Safari */
+  backdrop-filter: blur(4px); /* Adds Blur Effect */
+  -webkit-backdrop-filter: blur(4px); /* For Safari */
   z-index: 0; /* Ensures it's behind the content */
 }
 
