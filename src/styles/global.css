@@ -39,8 +39,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  transition: background-image 0.8s ease-in-out;
-  animation: fadeIn 1s ease-in-out;
+  animation: fadeIn 0.8s ease-in-out;
 }
 
 /* Background Overlay & Blur */
@@ -74,7 +73,7 @@ body {
   justify-content: center;
   text-align: center;
   opacity: 0;
-  transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.4s ease-in-out;
 }
 
 .weather p {
@@ -93,7 +92,7 @@ body {
   align-items: center;
   gap: 2rem;
   margin-bottom: 4rem;
-  animation: slideUp 1s ease-in-out;
+  animation: slideUp 0.8s ease-in-out;
 }
 
 .date-container {
@@ -103,14 +102,14 @@ body {
 .date-container p {
   font-size: 1.2rem;
   opacity: 0;
-  animation: fadeIn 1.5s ease-in-out forwards;
+  animation: fadeIn 1.2s ease-in-out forwards;
 }
 
 .date-container h1 {
   font-size: clamp(4rem, 10vw, 8rem);
   font-family: var(--font-family-hero);
   opacity: 0;
-  animation: fadeIn 2s ease-in-out forwards;
+  animation: fadeIn 1.8s ease-in-out forwards;
 }
 
 /* Progress Bar */
@@ -121,7 +120,7 @@ body {
   border: 2px solid var(--primary-color);
   overflow: hidden;
   position: relative;
-  animation: fadeIn 2s ease-in-out forwards;
+  animation: fadeIn 1.8s ease-in-out forwards;
 }
 
 /* The progress fill */
@@ -138,7 +137,7 @@ body {
   display: flex;
   justify-content: space-between;
   font-size: 0.8rem;
-  animation: fadeIn 2.5s ease-in-out forwards;
+  animation: fadeIn 2.2s ease-in-out forwards;
 }
 
 .footer a {
