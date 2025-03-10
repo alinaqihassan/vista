@@ -5,21 +5,20 @@ import useBackgroundImage from '@/hooks/useBackgroundImage';
 
 const App: React.FC = () => {
   const [time, setTime] = useState(new Date());
+  const { imageUrl, photoLink } = useBackgroundImage(); // Fetch dynamic background
 
   useEffect(() => {
-    // Update time every second
     const interval = setInterval(() => {
       setTime(new Date());
     }, 1000);
 
-    return () => clearInterval(interval); // Cleanup interval on unmount
+    return () => clearInterval(interval); // Cleanup on unmount
   }, []);
 
-  const photoLink = useBackgroundImage(time); // Get background image link
-  const dayProgress = ((time.getHours() * 60 + time.getMinutes()) / 1440) * 100; // Calculate percentage of day passed;
+  const dayProgress = ((time.getHours() * 60 + time.getMinutes()) / 1440) * 100; // Calculate day progress %
 
   return (
-    <div className="app">
+    <div className="app" style={{ backgroundImage: `url(${imageUrl})` }}>
       <Weather />
 
       <div className="hero">
@@ -42,7 +41,7 @@ const App: React.FC = () => {
         <ProgressBar progress={dayProgress} />
       </div>
 
-      <div className="footer">
+      <footer className="footer">
         <p>
           <a
             title="background"
@@ -63,7 +62,7 @@ const App: React.FC = () => {
             /github
           </a>
         </p>
-      </div>
+      </footer>
     </div>
   );
 };

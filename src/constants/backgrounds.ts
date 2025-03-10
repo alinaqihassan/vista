@@ -25,7 +25,7 @@ export const BACKGROUND_IMAGES: BackgroundImageData[] = [
   {
     day: 4,
     image: 'thursday.jpg',
-    link: 'https://unsplash.com/photos/grand-canyon-arizona-YG_Fxyqz9xg',
+    link: 'https://unsplash.com/photos/brown-stone-near-sea-at-golden-hour-vmZ2DehWQ3Q',
   },
   {
     day: 5,

@@ -10,7 +10,7 @@ const Weather: React.FC = () => {
     const fetchData = async () => {
       try {
         // Fetching IP data to get location info (latitude, longitude)
-        const ipResult = await fetchWithCache<IPData>('https://ipapi.co/json/');
+        const ipResult = await fetchWithCache<IPData>('https://ipwho.is/');
         setIpData(ipResult);
 
         // If latitude and longitude are available, fetch weather data
