@@ -1,8 +1,31 @@
-# React + Vite
+<p align="center">
+  <img alt="logo" src="/icons/icon128.png" width="80" height="80" alt="Vista Logo" />
+  <h1 align="center">
+    Vista
+  </h1>
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Vista Screenshot](./screenshots/hero.png)
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Minimal new tab showing current time in 24-hour format
+- Displays current day and date (e.g., Saturday, Feb 10)
+- Visual day progress bar that fills as time passes
+- Real-time weather fetched from IP-based location (°C & °F)
+- Unique background image for each day of the week
+- Fully responsive and distraction-free
+
+## Tech Stack
+
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+
+## Credits
+
+- Backgrounds via [Unsplash](https://unsplash.com)
+
+## ⚖️ License
+
+This project is licensed under [MIT](LICENSE).
