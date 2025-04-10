@@ -1,9 +1,7 @@
-<p align="center">
-  <img alt="logo" src="/icons/icon128.png" width="80" height="80" alt="Vista Logo" />
-  <h1 align="center">
-    Vista
-  </h1>
-</p>
+# Vista - A Minimal New Tab Extension
+
+**Vista** is a no-nonsense browser start page that displays the **current time**, **date**, **weather**, a **day progress bar**, and a **unique background for each day of the week**.  
+No widgets, no clutter. Just calm.
 
 ![Vista Screenshot](./screenshots/hero.png)
 
@@ -26,6 +24,6 @@
 
 - Backgrounds via [Unsplash](https://unsplash.com)
 
-## ⚖️ License
+## License
 
 This project is licensed under [MIT](LICENSE).
