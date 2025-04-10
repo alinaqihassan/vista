@@ -1,6 +1,6 @@
 import { BackgroundImageData } from '@/types/types';
 
-// Array of background images, each with a corresponding day, image file, and link to the source
+// Array of background images, each with a corresponding day, image file name, and link to the source
 export const BACKGROUND_IMAGES: BackgroundImageData[] = [
   {
     day: 0,
