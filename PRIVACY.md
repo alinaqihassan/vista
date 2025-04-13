@@ -1,4 +1,4 @@
-# Privacy Policy for Vista
+# Privacy Policy
 
 Vista is a minimal new tab extension that shows the time, date, weather, and a day progress bar.
 
