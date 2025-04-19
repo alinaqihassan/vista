@@ -5,6 +5,12 @@
 **Vista** is a no-nonsense browser start page that displays the **current time**, **date**, **weather**, a **day progress bar**, and a **unique background for each day of the week**.  
 No widgets, no clutter. Just calm.
 
+## Available on:
+
+- [Chrome Web Store](https://chromewebstore.google.com/detail/vista/ikkbpjhalcjblggbcbmcofpcfhfhplkn)
+- [Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/vista/your-edge-extension-id)
+- [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/vista/)
+
 ## Features
 
 - Minimal new tab showing current time in 24-hour format

@@ -12,5 +12,10 @@
   "chrome_url_overrides": {
     "newtab": "index.html"
   },
-  "host_permissions": ["https://ipwho.is/", "https://api.open-meteo.com/v1/*"]
+  "host_permissions": ["https://ipwho.is/", "https://api.open-meteo.com/v1/*"],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "vista@shashikanth.dev"
+    }
+  }
 }
