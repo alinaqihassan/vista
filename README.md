@@ -8,7 +8,7 @@ No widgets, no clutter. Just calm.
 ## Available on:
 
 - [Chrome Web Store](https://chromewebstore.google.com/detail/vista/ikkbpjhalcjblggbcbmcofpcfhfhplkn)
-- [Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/vista/your-edge-extension-id)
+- [Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/vista/nhbgakokookoeiplielcigoldnbnaalo)
 - [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/vista/)
 
 ## Features
