@@ -16,7 +16,7 @@ No widgets, no clutter. Just calm.
 - Minimal new tab showing current time in 24-hour format
 - Displays current day and date (e.g., Saturday, Feb 10)
 - Visual day progress bar that fills as time passes
-- Real-time weather fetched from IP-based location (°C & °F)
+- Real-time weather fetched from IP-based location (°C)
 - Unique background image for each day of the week
 - Fully responsive and distraction-free
 
