@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "Vista",
-  "description": "A minimal and aesthetic new tab extension with nature backgrounds.",
+  "name": "Vista-fork",
+  "description": "A minimal and aesthetic new tab extension with mountain landscape backgrounds.",
   "version": "1.0.0",
   "icons": {
     "16": "/icons/icon16.png",
@@ -15,7 +15,7 @@
   "host_permissions": ["https://ipwho.is/", "https://api.open-meteo.com/v1/*"],
   "browser_specific_settings": {
     "gecko": {
-      "id": "vista@shashikanth.dev"
+      "id": "vista-fork@alinaqihassan"
     }
   }
 }

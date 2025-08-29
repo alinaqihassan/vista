@@ -1,7 +1,5 @@
 <h1 align="center">Vista-fork</h1>
 
-![Vista Screenshot](./screenshots/hero.png)
-
 **Vista-fork** is a fork of the **Vista** extension. **Vista** is a no-nonsense browser start page that displays the **current time**, **date**, **weather**, a **day progress bar**, and a **unique background for each day of the week**.  
 No widgets, no clutter. Just calm.
 
