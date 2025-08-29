@@ -23,13 +23,14 @@ const App: React.FC = () => {
 
       <div className="hero">
         <div className="date-container">
-          <p>
-            {time.toLocaleDateString('en-US', {
+          <strong><h3>
+            {time.toLocaleDateString('en-GB', {
               weekday: 'long',
-              month: 'short',
               day: 'numeric',
+              month: 'long',
+              year: 'numeric',
             })}
-          </p>
+          </h3></strong>
           <h1>
             {time.toLocaleTimeString('en-GB', {
               hour: '2-digit',
