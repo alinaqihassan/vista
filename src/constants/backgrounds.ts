@@ -4,37 +4,37 @@ import { BackgroundImageData } from '@/types/types';
 export const BACKGROUND_IMAGES: BackgroundImageData[] = [
   {
     day: 0,
-    image: 'sunday.jpg',
-    link: 'https://unsplash.com/photos/an-aerial-view-of-a-body-of-water-WlxHpuwbLns',
-  },
-  {
-    day: 1,
     image: 'monday.jpg',
     link: 'https://unsplash.com/photos/green-mountain-across-body-of-water-Bkci_8qcdvQ',
   },
   {
-    day: 2,
+    day: 1,
     image: 'tuesday.jpg',
-    link: 'https://unsplash.com/photos/aerial-view-of-city-near-body-of-water-during-daytime-C4obO33N29M',
+    link: 'https://unsplash.com/photos/snow-capped-mountains-overlook-a-lush-green-valley-uAfJ7LIjoAw',
+  },
+  {
+    day: 2,
+    image: 'wednesday.jpg',
+    link: 'https://unsplash.com/photos/green-pine-trees-near-mountain-under-white-clouds-during-daytime-u27AUwVNBAQ',
   },
   {
     day: 3,
-    image: 'wednesday.jpg',
-    link: 'https://unsplash.com/photos/green-northern-lights-at-night-Ejpx_sdKEKo',
+    image: 'thursday.jpg',
+    link: 'https://unsplash.com/photos/a-view-of-a-mountain-with-a-forest-below-6W1uVou6ThQ',
   },
   {
     day: 4,
-    image: 'thursday.jpg',
-    link: 'https://unsplash.com/photos/brown-stone-near-sea-at-golden-hour-vmZ2DehWQ3Q',
+    image: 'friday.jpg',
+    link: 'https://unsplash.com/photos/a-scenic-view-of-a-lake-surrounded-by-mountains-fxSf2ykpauk',
   },
   {
     day: 5,
-    image: 'friday.jpg',
-    link: 'https://unsplash.com/photos/golden-hour-photography-of-docking-pier-on-body-of-water-uwbajDCODj4',
+    image: 'saturday.jpg',
+    link: 'https://unsplash.com/photos/green-pine-trees-in-plains-QzXTMvbqtVs',
   },
   {
     day: 6,
-    image: 'saturday.jpg',
-    link: 'https://unsplash.com/photos/landscape-photography-of-trees-near-mountain-during-orange-sunset-RAJONCCrXh8',
+    image: 'sunday.jpg',
+    link: 'https://unsplash.com/photos/a-view-of-a-mountain-range-with-a-river-in-the-foreground-Aj1yCF2R5CE',
   },
 ];

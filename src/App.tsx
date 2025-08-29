@@ -55,7 +55,7 @@ const App: React.FC = () => {
         <p>
           <a
             title="github"
-            href="https://github.com/shashiirk/vista"
+            href="https://github.com/alinaqihassan/vista-fork"
             target="_blank"
             rel="noopener noreferrer"
           >

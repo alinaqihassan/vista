@@ -12,7 +12,7 @@ const useBackgroundImage = (): { imageUrl: string; photoLink: string } => {
   });
 
   useEffect(() => {
-    const dayOfWeek = new Date().getDay(); // Get the current day of the week (0-6, Sunday-Saturday)
+    const dayOfWeek = (new Date().getDay() - 1) % 7; // Get the current day of the week (0-6, Monday-Sunday)
 
     // Find the background image data corresponding to the current day
     const backgroundData: BackgroundImageData | undefined =
