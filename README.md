@@ -33,9 +33,3 @@ No widgets, no clutter. Just calm.
 ## License
 
 This project is licensed under [MIT](LICENSE).
-
-## Support
-
-If you find this product useful then consider buying me a coffee 👇
-
-<p><a href="https://www.buymeacoffee.com/shashiirk" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" width="196" /></a></p>
